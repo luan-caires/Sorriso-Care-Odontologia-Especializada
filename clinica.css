@@ -1,0 +1,132 @@
+@font-face{
+    font-family:luan;
+    src:url('fontes/fonte.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: luan,sans-serif;
+    background-color: #E8BBBB;
+}
+/*CABEÇA DA PÁGINA--------------------------------------------------------------------------------------*/
+header{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    background-color: #7D8384;
+    font-size: 20px;
+}
+#logo{
+    width:50%;
+    height: 100%; 
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: #BDAD4C;
+    height: 20%;
+
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+/*MENU-------------------------------------------------------------------------------------------------*/
+#menu{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#menu li{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+}
+/*Conteúdo da pág-------------------------------------------------------------------------------------------*/
+main{
+ width: 100%;
+ height: 25%;
+}
+main h2{
+    padding-top: 20px;
+}
+#quemsomos{
+    padding: 15px;
+}
+#quem somos p{
+    padding:20px; 
+}
+#image{
+    width: 100%;
+    padding: 2rem;
+    display:grid;
+	grid-template-columns: 1fr 1fr;
+  
+}
+#image img{
+    height:70%;
+    width: 60%;
+      grid-column-gap: 2%;
+    grid-row-gap: 3%;
+}
+#servicos{
+    padding: 15px;
+}
+/*Imagem das Logos de tratamento-------------------------------------------------------------------------------------------------*/
+#servicos2{
+    width: 100%;
+    display: flex;
+}
+.simbolo2{
+    padding: 3%;
+}
+.simbolo2 img{
+     width: 60%;
+    height: 40%;
+}
+/*Página de Dentistas---------------------------------------------------------------------------------------------------------*/
+.dentistas{
+    width: 100%;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    text-align: center;
+    background-color: #E8BBBB;
+}
+/*RODAPÉ DO SITE-------------------------------------------------------------------------------------------------------------------*/
+footer{
+    width: 100%;
+    height: 100%;
+    background-color:#494A4A;
+    color: #BDAD4C;
+}
+/*Página do Formulário---------------------------------------------------------------------------------------------------------*/
+#contato{
+    width:65vw;
+    height: 60vh;
+    padding: 2%;
+    background-color: #494A4A;
+    border: 2px solid ;
+    border-radius: 2%;
+    box-shadow: 0 0 20px black;
+    margin: 20%;
+    color:#BDAD4C;
+}
+#contato h1{
+    color:#BDAD4C;
+    text-align: center;
+}
+iframe{
+    width: 100%;
+}
+#sexo{
+    border: none;
+}
